@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build output
+dist/
+dist-ssr/
+*.local
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Vercel
+.vercel/
+
+# Temporary Word files
+~$*
+*.tmp
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# Large scanned textbooks (>100MB - exceeds GitHub limit)
+SGK*
+*mau.pdf
+all_pages_*.json
+all_pages_ocr.json
+temp_all_ocr/
+temp_ocr/
+temp_pages/
+server/data/
+extracted_raw*.txt
+khtn7_p*.png
