@@ -1,0 +1,21 @@
+# Ignore large files & docs on Vercel
+*.pdf
+*.docx
+*.doc
+*.jsonl
+*.txt
+*.png
+*.py
+all_pages_*.json
+all_pages_ocr.json
+temp_all_ocr/
+temp_ocr/
+temp_pages/
+THAM KHAO MA TRAN VA DE THCS/
+server/data/
+dist/
+node_modules/
+.git/
+.env
+.env.*
+!.env.example
